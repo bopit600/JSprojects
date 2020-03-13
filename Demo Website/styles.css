@@ -1,0 +1,63 @@
+body{
+	background-image: url("images/scrunched_paper.jpg");
+}
+h1 { color: #808080;
+	 font-family: 'Arial Black', serif; 
+	 font-size: 45px; 
+	 font-weight: normal; 
+	 line-height: 48px; 
+	 margin: 0; 
+}
+h2{
+	background-color: #A9A9A9;
+	font-family: 'Arial Black', serif; 
+	font-size: 40px; 
+	font-weight: normal; 
+	line-height: 48px; 
+	margin: 0; 
+	border-radius: 25px;
+	text-align: center;
+}
+img{
+	height: 25%;
+	width: 25%;
+}
+ li{
+ 	margin: 15px 0;
+ 	text-align: center;
+ }
+ ul{
+ 	padding: 0;
+    list-style-type: none;
+ }
+
+.heading{
+	background-color: #ffffed;
+	margin: 20px;
+  	padding: 20px;
+  	text-align: center;
+  	border-radius: 25px;
+}
+.button{
+	background-color: #ffffed;
+	margin: 5px;
+  	padding: 5px;
+  	text-align: center;
+  	border-radius: 15px;
+ }
+ .inputbox{
+ 	background-color: #ffffed;
+	margin: 20px;
+  	padding: 20px;
+  	text-align: center;
+  	border-radius: 25px;
+ }
+ .button {
+  background-color: #A9A9A9; 
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}

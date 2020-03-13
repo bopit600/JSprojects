@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trig Ratio Sine Calculator</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="scripts/jquery-3.4.1.js"></script>
+	<script src="scripts/trigratio.js"></script>
+
+</head>
+<body>
+	<div class="inputbox">
+		<h2>Trigonometric Ratio Sine Calculator</h2>
+		<p>In this calculator, you can solve for an unknown value θ (theta). Select either A, B or C, input the values for the sides and the calculator will solve for θ</p>
+		<ul id="list">
+			<li>Side a value <input type="text" id="TextInputA"></li>
+			<li>Side b value <input type="text" id="TextInputB"></li>
+			<li>Side c value <input type="text" id="TextInputC"></li>
+		</ul>
+		<ul id="list2">
+			<li><input type="radio" id="angleA" value="angleA" onclick="A();"><label for="angleA">angle A</label></li>
+			<li><input type="radio" id="angleB" value="angleB" onclick="B();"><label for="angleB">angle B</label></li>
+			<li><input type="submit" onclick="ratioCalc();" class="button"></li>
+			<li><a href="index.html" class="backbutton">Back</a></li>
+		</ul>
+		<script>document.getElementById("list").style.visibility="hidden";</script>
+		<img src="images/righttriangle.png">
+		<h3 id="answer">Result: </h3>
+	</div>
+</body>
+</html>
